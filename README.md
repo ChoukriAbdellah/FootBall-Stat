@@ -4,7 +4,7 @@ Projet généré avec [Angular CLI](https://github.com/angular/angular-cli) vers
 
 ## Lancement du serveur
 
-Lancer la commande :Run `ng serve` puis se rendre sur `http://localhost:4200/`. 
+Lancer la commande : `ng serve` puis se rendre sur `http://localhost:4200/`. 
 
 ### Options
 --open : Ouvrir le projet depuis le terminal.
