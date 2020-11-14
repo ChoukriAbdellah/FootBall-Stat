@@ -1,0 +1,17 @@
+.notfound {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50vh;
+    bottom: 50vh;
+    margin: 0 auto;
+}
+
+.icon-top {
+
+    margin-bottom: 0;
+}
+
+.text-bottom {
+    margin-top: 0;
+}

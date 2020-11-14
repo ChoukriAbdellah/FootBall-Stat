@@ -1,0 +1,21 @@
+<div class="row">
+  <form class="col s12" (submit)="formSubmit()">
+    <div class="row">
+      <div class="input-field col s10 offset-s1">
+        <input [(ngModel)]="mot" id="mot" type="text" name="mot" />
+        <label for="email">Entrer le nom d'un championat </label>
+        <span class="helper-text red-text">{{ errorText }}</span>
+      </div>
+    </div>
+  </form>
+</div>
+
+
+
+<app-preloader *ngIf="loading"></app-preloader>
+
+<app-notfound *ngIf="notFound"></app-notfound>
+
+<app-team-list [squads]="squads"></app-team-list>
+
+<app-footer></app-footer>
