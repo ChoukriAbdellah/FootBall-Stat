@@ -8,6 +8,7 @@ Lancer la commande : `ng serve` puis se rendre sur `http://localhost:4200/`.
 
 ### Options
 --open : Ouvrir le projet depuis le terminal.
+
 --port numPort : Lancer le projet sur le port numPort.
 
 
