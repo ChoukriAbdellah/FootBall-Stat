@@ -14,5 +14,7 @@ Lancer la commande : `ng serve` puis se rendre sur `http://localhost:4200/`.
 
 ## Help
 Pour plus d'informations consulter l'aide :
+
 De puis le terminal ( commande ng help).
+
 Ou directement depsuis le git officiel d'[Angular CLI](https://github.com/angular/angular-cli/blob/master/README.md).
