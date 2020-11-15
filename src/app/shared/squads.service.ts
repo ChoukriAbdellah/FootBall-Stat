@@ -12,10 +12,10 @@ export class SquadsService {
 
 
   constructor(private httpClient: HttpClient ) { }
-
-  loadSquads(championship : string): Observable<Team[]> {
+loadSquads(championship : string): Observable<Team[]> {
     return this.httpClient.get<Team[]>('https://cors-anywhere.herokuapp.com/https://football98.p.rapidapi.com/'+championship+'/squads',{
-      headers: {'x-rapidapi-key':'0af3f37941msh7e87158c7ba7f03p12d3cajsn08369ff027bd',
+     // Remplacer le champ XXXXXXXX par votre api-key.
+       headers: {'x-rapidapi-key':'XXXXXXXXXX',
       'x--host':'football98.p.rapidapi.com',
       'useQueryString' : 'true'
     }
